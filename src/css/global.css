@@ -1,0 +1,60 @@
+  /* For Nova Mono */
+  @font-face {
+    font-family: 'Nova Mono'; /* Different font-family name */
+    src: url('../../public/fonts/NovaMono-Regular.ttf'); /* Add other formats */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  /* For Abril Fatface */
+  @font-face {
+    font-family: 'AbrilFatFace'; /* Different font-family name */
+    src: local('AbrilFatFace'),
+         url('../../public/fonts/AbrilFatface-Regular.ttf'); /* Add other formats */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  /* Roboto */
+  @font-face {
+    font-family: Roboto;
+    src: url('../../public/fonts/Roboto-VariableFont_wdth\,wght.ttf');
+  }
+  @font-face {
+    font-family: Roboto;
+    src: url('../../public/fonts/Roboto-VariableFont_wdth\,wght.ttf');
+    font-style: italic;
+  }
+
+  /* Roboto */
+  @font-face {
+    font-family: Roboto Mono;
+    src: url('../../public/fonts/RobotoMono-VariableFont_wght.ttf');
+  }
+  @font-face {
+    font-family: Roboto Mono;
+    src: url('../../public/fonts/RobotoMono-Italic-VariableFont_wght.ttf');
+    font-style: italic;
+  }
+  
+
+
+:root {
+    background-color: #0e0d0d;
+    color: white;
+    font-family: Roboto Mono;
+}
+
+body {
+  font-family: Roboto Mono;
+  margin: 0px;
+}
+
+div {
+  
+  font-family: Roboto Mono;
+}
+
+

@@ -1,0 +1,71 @@
+.home-grid {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 9px;
+    border-color: rgba(146, 147, 148, 0.322);
+    width: 800px;
+}
+
+
+.title-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button-grid {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+/* paragraphs */
+.dev-name {
+    font-weight: bold;
+    font-size: 32px;
+    justify-content: start;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.location-text {
+    margin-top: 5px;
+    margin-left: 20px;
+    vertical-align: bottom;
+    font-weight: 200;
+}
+
+
+
+
+
+/* Buttons */
+.contact-button {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: 20px;
+    border-radius: 12px;
+    padding: 8px 8px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #bebebe3b;
+    border-width: 2px;
+
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.568);
+
+}
