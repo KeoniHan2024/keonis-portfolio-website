@@ -4,8 +4,7 @@
     height: 52px;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 20px;
     font-size: 32px;
     border-bottom-style: none;
     /* border-bottom-width: 1px;
@@ -17,20 +16,22 @@
     display: flex;
     font-weight: 400;
     font-size: 36px;
-    width: 400px;
+    width: 350px;
     justify-content: start;
     margin-left: auto;
+  
 }
 
 .middle-section {
     display: flex;
     text-align: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 
 .right-section {
     display: flex;
-    width: 400px;
+    width: 350px;
     justify-content: end;
     margin-right: auto;
 }
@@ -42,3 +43,4 @@
     padding-right: 20px;
     font-size: 20px;
 }
+

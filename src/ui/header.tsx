@@ -6,12 +6,14 @@ function Header(){
     <>
         <div className="header">
             <div className="left-section">
-            Keoni Han
+                <p className='logo-text'>Keoni Han</p>
             </div>
             <div className="middle-section">
-            <p className='header-text'>About me</p>
-            <p className='header-text'>Projects</p>
-            <p className='header-text'>Contributions</p>
+                <a href='/about'>
+                    <p className='header-text'>About me</p>
+                </a>   
+                <p className='header-text'>Projects</p>
+                <p className='header-text'>Contributions</p>
             </div>
             <div className="right-section">
                 <p className='header-text'>Contact Me</p>
