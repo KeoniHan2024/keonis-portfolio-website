@@ -85,12 +85,12 @@
 
 
 /*Experience Container*/
-.experience-container p {
+.experience-container p{
     padding-left: 0.25rem;
     margin-bottom: 0px;
     margin-top: 0px;
 }
-.experience-container {
+.experience-container{
     display: flex;
     flex-direction: column;
     margin: 20px auto;
@@ -233,4 +233,126 @@ li {
     font-weight: bold;
 }
 
+.hide {
+    display: none;
+}
 
+.project-container-box:hover .hide {
+    display: block;
+    z-index: 23;
+}
+
+.github-button {
+    z-index: 23;
+    width: 120px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #1d1d1d;
+    border-style:hidden;
+    color: white;
+    font-family: Roboto Mono;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.638);
+}
+
+.gradient {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0) 100%);
+    position: absolute;
+    overflow: auto;
+    z-index: 18;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.tech-stack-button {
+    background-color: transparent;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(211, 211, 211, 0.63);
+    border-radius: 4px;
+    margin: 0px 7px;
+    padding: 5px 15px;
+    font-size: 24px;
+    font-family: Roboto;
+    z-index: 23;
+}
+
+
+
+
+/*Experience Container*/
+.tech-container p{
+    padding-left: 0.25rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.tech-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 800px;
+    overflow: hidden;
+    padding: 60px 0;
+    
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logo-slide-container {
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo-slide-container::before,
+.logo-slide-container::after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+}
+
+.logo-slide-container::before {
+    background: linear-gradient(to left, rgba(255,255,255,0), #0e0d0d);
+    left: 0;
+    z-index: 2;
+    content: "";
+}
+
+.logo-slide-container::after {
+    background: linear-gradient(to right, rgba(255,255,255,0), #0e0d0d);
+    right: 0;
+    z-index: 2;
+    content: "";
+}
+
+.logos-slide {
+    display: inline-flex;
+    animation: 30s slide infinite linear;
+    
+    padding-top: 20px;
+    align-items: center;
+}
+
+.logo-slide-container:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+.logos-slide img {
+    height: 50px;
+    width: 50px;
+    margin: 0 20px;
+}

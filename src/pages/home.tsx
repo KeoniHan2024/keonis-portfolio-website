@@ -3,6 +3,7 @@ import ContactContainer from "../ui/contactContainer";
 import '../css/global.css'
 import ExperienceContainer from "../ui/experienceContainer";
 import ProjectContainer from "../ui/projectContainer";
+import TechContainer from "../ui/techContainer";
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
         <Header/>
         <div className="home-grid">
             <ContactContainer/>
+            <TechContainer/>
             <ExperienceContainer/>
             <ProjectContainer/>
         </div>
