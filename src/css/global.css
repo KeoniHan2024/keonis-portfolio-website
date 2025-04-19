@@ -57,6 +57,13 @@ div {
   font-family: Roboto Mono;
 }
 
+/* spans */
+.dash {
+  letter-spacing: -3px;
+}
+
+
+
 
 a,
 a:link,

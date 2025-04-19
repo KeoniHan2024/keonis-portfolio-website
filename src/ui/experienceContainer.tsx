@@ -16,11 +16,11 @@ function ExperienceContainer() {
                 <p className="date-text">Jun<span className="dash">e - </span>August 2024</p>
                 <p className="desc-text">
                     <ul>
-                        <li><FontAwesomeIcon icon={faCircle} size="sm"/>Created a hand gesture-based web application deployed on Proto Holo, enhancing user interaction and usability for 
+                        <li>Created a hand gesture-based web application deployed on Proto Holo, enhancing user interaction and usability for 
                         immersive environments.</li>
-                        <li><FontAwesomeIcon icon={faCircle} size="sm"/>Utilizing Unity to design and develop a VR application for analyzing pipe coatings, integrating advanced 
+                        <li>Utilizing Unity to design and develop a VR application for analyzing pipe coatings, integrating advanced 
                         visualization techniques for enhanced inspection and analysis capabilities.</li>
-                        <li><FontAwesomeIcon icon={faCircle} size="sm"/>Developed and pitched an innovative idea/product to Oceanit staff and simulated venture capitalists, honing 
+                        <li>Developed and pitched an innovative idea/product to Oceanit staff and simulated venture capitalists, honing 
                         presentation skills and gaining experience in conceptualizing ideas from inception to presentation</li>
                     </ul>
                 </p>
@@ -39,12 +39,12 @@ function ExperienceContainer() {
                 </div>
                 <p className="desc-text">
                     <ul>
-                        <li><FontAwesomeIcon icon={faCircle} size="sm"/>Gained hands-on experience in various aspects of IT auditing, including Mindbridge imports/analyses, General 
+                        <li>Gained hands-on experience in various aspects of IT auditing, including Mindbridge imports/analyses, General 
 Ledger transformations using Microsoft Excel and PowerQuery, and ITGCs (Information Technology General 
 Controls).</li>
-                        <li><FontAwesomeIcon icon={faCircle} size="sm"/>Actively contributed to optimizing the narrative process, and Standard of Procedures for an estimated 30% improved 
+                        <li>Actively contributed to optimizing the narrative process, and Standard of Procedures for an estimated 30% improved 
                         efficiency and effectiveness. </li>
-                        <li><FontAwesomeIcon icon={faCircle} size="sm"/>Experimented with using Chat GPT’s API to convert IT audit narratives into generated process flowcharts in 
+                        <li>Experimented with using Chat GPT’s API to convert IT audit narratives into generated process flowcharts in 
                         Microsoft Visio. </li>
                     </ul>
                 </p>

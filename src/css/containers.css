@@ -157,7 +157,7 @@
 
 ul {
     margin-top: 0px;
-    list-style: none;
+    /* list-style: none; */
 }
 
 ul svg {
@@ -169,11 +169,6 @@ li {
 }
 
 
-/* spans */
-.dash {
-    letter-spacing: -4px;
-}
-
 
 
 
@@ -182,11 +177,60 @@ li {
     display: flex;
     flex-direction: column;
     margin: 10px auto;
-    width: 800px;
+    justify-content: end;
 }
 
 .project-container p {
     padding-left: 0.25rem;
     margin-bottom: 0px;
     margin-top: 0px;
+    z-index: 20;
 }
+
+.project-container-box {
+    border-style: solid;
+    border-radius: 12px;
+    min-width: auto;
+    width: 800px;
+    height: 500px;
+    border-width: 1px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+
+.project-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 40%;
+    filter: blur(3px);
+    cursor: pointer;
+    transition: 0.5s;
+    position: absolute;
+}
+
+.image-container {
+
+}
+
+.project-img:hover{
+    transform: scale(1.05);
+}
+
+.project-info-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.project-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+
