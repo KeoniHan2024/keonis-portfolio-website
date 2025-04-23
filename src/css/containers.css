@@ -199,6 +199,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: end;
+    margin-bottom: 30px;
 }
 
 
@@ -244,7 +245,7 @@ li {
 
 .github-button {
     z-index: 23;
-    width: 120px;
+    width: fit-content;
     height: 40px;
     border-radius: 3px;
     background-color: #1d1d1d;
@@ -254,6 +255,8 @@ li {
     font-weight: bold;
     font-size: 15px;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.638);
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 .gradient {
