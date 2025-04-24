@@ -208,10 +208,16 @@ li {
     height: 100%;
     object-fit: cover;
     object-position: 50% 40%;
-    filter: blur(3px);
     cursor: pointer;
     transition: 0.5s;
     position: absolute;
+}
+
+.project-tech-img {
+    height: 25px;
+    width: 25px;
+    vertical-align: top;
+    margin-right: 5px;
 }
 
 .image-container {
@@ -227,6 +233,8 @@ li {
     flex-direction: row;
     padding-left: 10px;
     padding-bottom: 10px;
+    flex-wrap: wrap;
+    row-gap: 5px;
 }
 
 .project-name {

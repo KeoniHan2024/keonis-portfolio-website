@@ -9,11 +9,11 @@ function Header(){
                 <p className='logo-text'>Keoni Han</p>
             </div>
             <div className="middle-section">
-                <a href='/about'>
+                <a href='/keonis-portfolio-website/about'>
                     <p className='header-text'>About me</p>
                 </a>   
                 <p className='header-text'>Projects</p>
-                <p className='header-text'>Contributions</p>
+                <p className='header-text'>Social Media</p>
             </div>
             <div className="right-section">
                 <p className='header-text'>Contact Me</p>
