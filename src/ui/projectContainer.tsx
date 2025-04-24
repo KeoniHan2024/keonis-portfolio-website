@@ -16,7 +16,7 @@ function ProjectContainer() {
     <>
       <div className="project-container">
         <p className="section-header">Projects</p>
-        <div className="project-container-box">
+        <div className="project-container-box hidden">
           <div className="gradient"></div>
           <img className="project-img" src="./img/ufc_gym.webp"></img>
           <div className="project-info-container">
@@ -45,7 +45,7 @@ function ProjectContainer() {
               MySql
             </button>
             <button className="tech-stack-button">
-                <FontAwesomeIcon icon={faAws} color="white"/> AWS
+              <FontAwesomeIcon icon={faAws} color="white"/> AWS
             </button>
             <button className="tech-stack-button">
               <FontAwesomeIcon icon={faReact} /> React
@@ -68,7 +68,7 @@ function ProjectContainer() {
             <button className="github-button">Open Repo</button>
           </div>
         </div>
-        <div className="project-container-box">
+        <div className="project-container-box hidden">
           <div className="gradient"></div>
           <img className="project-img" src="./img/molecule.png"></img>
           <div className="project-info-container">
@@ -98,7 +98,7 @@ function ProjectContainer() {
             <button className="github-button">Open Repo</button>
           </div>
         </div>
-        <div className="project-container-box">
+        <div className="project-container-box hidden">
           <div className="gradient"></div>
           <img className="project-img" src="./img/asl.jpg"></img>
           <div className="project-info-container">
@@ -120,7 +120,7 @@ function ProjectContainer() {
             <button className="github-button">Open Repo</button>
           </div>
         </div>
-        <div className="project-container-box">
+        <div className="project-container-box hidden">
           <div className="gradient"></div>
           <img className="project-img" src="./img/Shiley-marcos.jpg"></img>
           <div className="project-info-container">
@@ -164,7 +164,7 @@ function ProjectContainer() {
             </a>
           </div>
         </div>
-        <div className="project-container-box">
+        <div className="project-container-box hidden">
           <div className="gradient"></div>
           <img className="project-img" src="./img/nba.webp"></img>
           <div className="project-info-container">
@@ -188,7 +188,7 @@ function ProjectContainer() {
             <button className="github-button">Open Repo</button>
           </div>
         </div>
-        <div className="project-container-box">
+        <div className="project-container-box hidden">
           <div className="gradient"></div>
           <img className="project-img" src="./img/ebay-logo.jpg"></img>
           <div className="project-info-container">

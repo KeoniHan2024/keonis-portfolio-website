@@ -43,4 +43,48 @@
     padding-right: 20px;
     font-size: 20px;
 }
+.logo-text {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 700;
+    font-size: 35px;
+}
 
+
+
+.header-mobile {
+    display: none;
+}
+
+
+
+
+@media(max-width: 650px) {
+    .dropdown-button {
+        height: 50px;
+        width: 50px;
+        background-color: transparent;
+        padding-right: 45px;
+        border: none;
+    }
+    .menu-img {
+        height: 35px;
+        width: 35px;
+    }
+    .header {
+        display: none;
+    }
+    .hide-header {
+        opacity: 0;
+    }
+    .header-mobile {
+        display: block;
+    }
+    .navBar {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        row-gap: 10px;
+    }
+}

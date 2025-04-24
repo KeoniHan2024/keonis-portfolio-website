@@ -9,7 +9,7 @@ import { faMapPin } from '@fortawesome/free-solid-svg-icons';
 function ContactContainer() {
     return (
     <>
-            <div className="contact-container">
+            <div className="contact-container hidden">
                 <div className="title-row">
                     <p className="dev-name">Keoni Han</p>
                     <div className="button-grid">
