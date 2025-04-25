@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://keonihan2024.github.io/keonis-portfolio-website",
+  "homepage": "https://www.keonihan.com",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
