@@ -1,3 +1,13 @@
+/* @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 255, 255); }
+  } */
+
 .contact-container {
     display: flex;
     flex-direction: column;
@@ -23,7 +33,6 @@
 
 
 
-
 /* paragraphs */
 .dev-name {
     font-weight: bold;
@@ -32,7 +41,21 @@
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 0px;
+
+   
 }
+/* 
+@media (min-width: 800px){
+    .dev-name {
+        overflow: hidden; 
+        border-right: .15em solid rgb(255, 255, 255); 
+        white-space: nowrap; 
+        letter-spacing: .15em;
+        animation: 
+            typing 3.5s steps(40, end),
+            blink-caret .75s step-end infinite;
+    }
+} */
 
 .location-text {
     margin-top: 5px;
