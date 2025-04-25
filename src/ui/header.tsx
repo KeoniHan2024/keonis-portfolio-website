@@ -12,14 +12,16 @@ function Header() {
     <>
       <div className="header">
         <div className="left-section">
-          <p className="logo-text">Keoni Han</p>
+          <a href="#">
+            <p className="logo-text">Keoni Han</p>
+          </a>
         </div>
         <div className="middle-section">
-          <a href="/keonis-portfolio-website/about">
+          <a href="/about">
             <p className="header-text">About me</p>
           </a>
           <p className="header-text">Projects</p>
-          <a href="/keonis-portfolio-website/social-media">
+          <a href="/social-media">
             <p className="header-text">Social Media</p>
           </a>
         </div>
@@ -28,7 +30,7 @@ function Header() {
         </div>
       </div>
 
-      <div className="header-mobile">
+      <div className="header-mobile hidden">
         <a href="#">
           <p className="logo-text">Keoni</p>
         </a>  
