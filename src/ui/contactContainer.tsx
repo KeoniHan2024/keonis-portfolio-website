@@ -42,7 +42,7 @@ function ContactContainer() {
                 </div>
                 <div className="bio-row">
                     <p className='bio-text'>
-                        I'm a 23 year-old software developer from Honolulu, HI. I have been programming for about 5 years.
+                        I'm a software developer from Honolulu, HI. I have been programming for about 5 years.
                     </p>
                 </div>
             </div>
