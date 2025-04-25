@@ -1,7 +1,6 @@
-
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/home'
-import './css/global.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/home';
+import './css/global.css';
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
         </Routes>
       </Router>
     </div>
-  )
+  );
 }
 
 export default App;
