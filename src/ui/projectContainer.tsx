@@ -58,7 +58,7 @@ function ProjectContainer() {
             </button>
           </div>
           <div className="project-info-container">
-            <p>
+            <p className="project-desc">
               A web application that allows users to log workouts, track
               progress, and manage exercises with ease. Built using React and
               TypeScript
@@ -88,7 +88,7 @@ function ProjectContainer() {
             </button>
           </div>
           <div className="project-info-container">
-            <p>
+            <p className="project-desc">
               An interactive web application designed to visualize and
               manipulate molecular structures. Users can explore 3D models of
               molecules using their hand gestures and camera.
@@ -110,7 +110,7 @@ function ProjectContainer() {
             </button>
           </div>
           <div className="project-info-container">
-            <p>
+            <p className="project-desc">
               Using Hugging Face, this application allows a user to put ASL
               signs and have it detect in real time what letter you are holding
               up.
@@ -141,7 +141,7 @@ function ProjectContainer() {
             </button>
           </div>
           <div className="project-info-container">
-            <p>
+            <p className="project-desc">
               React web app for augmented reality stories that showcase how the
               Shiley Marcos building at the University of Portland was able to
               achieve LEED Status. While also creating a dashboard that shows
@@ -176,7 +176,7 @@ function ProjectContainer() {
             </button>
           </div>
           <div className="project-info-container">
-            <p>
+            <p className="project-desc">
               A Python application to compare NBA player statistics across
               seasons. Users select players and stats via a Tkinter GUI, with
               data fetched using the NBA API. Sklearn powers statistical
@@ -211,7 +211,7 @@ function ProjectContainer() {
             </button>
           </div>
           <div className="project-info-container">
-            <p>
+            <p className="project-desc">
               Built a full-stack web app replicating eBay's bidding, item
               listing, buying, and authentication using the LAMP stack (Linux,
               Apache, MySQL, PHP). Developed a secure user authentication system

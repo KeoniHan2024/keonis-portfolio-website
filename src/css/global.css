@@ -40,7 +40,7 @@
   }
 
 
-  @media(max-width: 650px) {
+  @media(max-width: 800px) {
     .home-grid {
       padding-top: 200px;
       display: flex;
@@ -142,4 +142,43 @@ a:visited {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
+}
+
+#backToTopBtn {
+  display: block; 
+  position: fixed; /* Fixed to the viewport */
+  bottom: 10px;
+  left: 50%;
+  z-index: 99; /* Ensure it's on top of other elements */
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  opacity: 0.3; /* Slightly transparent */
+  transition: opacity 0.3s ease-in-out;
+}
+
+#backToTopBtn:hover {
+  opacity: 1; /* Fully opaque on hover */
+}
+
+#backToTopBtn svg {
+  width: 1.2em;
+  height: 1.2em;
+  display: block; /* To center the SVG in the button */
+  margin: 0 auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media(max-width: 800px) {
+  #backToTopBtn {
+    display: none; 
+  }
 }

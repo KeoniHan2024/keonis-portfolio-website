@@ -378,7 +378,17 @@ li {
 }
 
 
-@media(max-width: 650px) {
+@media(max-width: 800px) {
+    .title-row {
+        flex-direction: column;
+    }
+    .dev-name {
+        text-wrap: nowrap;
+    }
+    .button-grid {
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
     .contact-container {
         width: 100%;
     }
@@ -411,6 +421,9 @@ li {
         width: 15px;
         height: 15px;
     }
-    
+    .project-info-container .project-desc {
+        font-size: 10px;
+        padding-right: 20px;
+    }
 
 }

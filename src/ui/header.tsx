@@ -1,13 +1,13 @@
 import "../css/header.css";
 import "../css/global.css";
-// import { useRef, useState } from "react";
+import { useRef, useState } from "react";
 
 function Header() {
-//   const dropDownRef = useRef<HTMLElement>(null);
-//   const [isVisible, setIsVisible] = useState(false);
-//   const dropdownClick = () => {
-//     setIsVisible(!isVisible);
-//   };
+  const dropDownRef = useRef<HTMLElement>(null);
+  const [isVisible, setIsVisible] = useState(false);
+  const dropdownClick = () => {
+    setIsVisible(!isVisible);
+  };
   return (
     <>
       <div className="header">
@@ -28,8 +28,10 @@ function Header() {
         </div>
       </div>
 
-      {/* <div className="header-mobile">
-        <h1>Keoni Han</h1>
+      <div className="header-mobile">
+        <a href="#">
+          <p className="logo-text">Keoni</p>
+        </a>  
         <button
           className="dropdown-button"
           id="dropdownToggle"
@@ -42,14 +44,11 @@ function Header() {
           />
         </button>
       </div>
-
-      {isVisible && (
-        <nav id="dropdownMenu" className="navBar" ref={dropDownRef}>
-          <a href="#">Home</a>
-          <a href="#">Exercises</a>
-          <a href="#">Progress</a>
+        <nav id="dropdownMenu" className={`navBar  ${isVisible ? 'visible' : ''}`} ref={dropDownRef}>
+          <a href="#"> <p className="header-text">About me</p></a>
+          <a href="#"> <p className="header-text">Social Media</p></a>
+          <a href="#"> <p className="header-text">Contact Me</p></a>
         </nav>
-      )} */}
     </>
   );
 }
