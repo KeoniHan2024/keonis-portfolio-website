@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconDefinition, IconProp } from "@fortawesome/fontawesome-svg-core";
 import "../css/global.css";
 import "../css/containers.css";
+import "../css/header.css";
 
 interface ProjectProps {
   projectName: string;

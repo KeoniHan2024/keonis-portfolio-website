@@ -34,7 +34,7 @@ function Header() {
         </div>
       </div>
 
-      <div className="header-mobile hidden">
+      <div className="header-mobile">
         <a href="#">
           <p className="logo-text">Keoni</p>
         </a>  
