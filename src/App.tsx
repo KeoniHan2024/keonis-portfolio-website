@@ -4,7 +4,6 @@ import "./css/global.css";
 import { useEffect } from "react";
 import Project from "./pages/project";
 import { faAws, faCss, faHtml5, faJs, faPhp, faPython, faReact } from "@fortawesome/free-brands-svg-icons";
-import ProjectContainer from "./ui/projectContainer";
 import ProjectsPage from "./pages/projectsPage";
 import SocialMedia from "./pages/socialMedia";
 
