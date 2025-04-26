@@ -225,6 +225,12 @@ li {
     margin-bottom: 30px;
 }
 
+.project-container-box.project-individual {
+    padding-top: 5px;
+    height: fit-content;
+    margin-bottom: 0px;
+}
+
 
 .project-img {
     width: 100%;
@@ -278,17 +284,23 @@ li {
     z-index: 23;
     width: fit-content;
     height: 40px;
-    border-radius: 3px;
-    background-color: #1d1d1d;
-    border-style:hidden;
-    color: white;
+    border-radius: 9px;
+    background-color: rgba(255, 255, 255, 0.897);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.541);
+    color: black;
     font-family: Roboto Mono;
     font-weight: bold;
     font-size: 15px;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.638);
     margin-right: 10px;
     cursor: pointer;
+
+    margin: 0px 7px;
+    padding: 5px 15px;
 }
+
 
 .gradient {
     height: 100%;
@@ -316,9 +328,6 @@ li {
     font-family: Roboto;
     z-index: 23;
 }
-
-
-
 
 /*Experience Container*/
 .tech-container p{
@@ -400,6 +409,14 @@ li {
     margin: 0 20px;
 }
 
+.project-header {
+    padding-bottom: 2px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Roboto;
+    display: block;
+}
+
 
 @media(max-width: 800px) {
     .title-row {
@@ -447,6 +464,10 @@ li {
     .project-info-container .project-desc {
         font-size: 10px;
         padding-right: 20px;
+    }
+
+    .project-desc {
+        width: 100%
     }
 
 }

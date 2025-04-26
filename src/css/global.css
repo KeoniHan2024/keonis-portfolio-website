@@ -181,6 +181,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.anchor {
+  z-index: 1000;
+}
+
 @media(max-width: 800px) {
   #backToTopBtn {
     display: none; 

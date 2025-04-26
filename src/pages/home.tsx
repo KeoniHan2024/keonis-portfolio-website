@@ -48,7 +48,7 @@ function Home() {
             <ContactContainer/>
             <TechContainer/>
             <ExperienceContainer/>
-            <ProjectContainer/>
+            <ProjectContainer isStatic={false}/>
             {/* <a href="#top" className="back-to-top-button">
               <button id="backToTopBtn" title="Back to top">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
