@@ -11,6 +11,8 @@ interface ProjectProps {
   projectImg: string;
   techStack: { name: string; useFontAwesome:boolean; imageSrc?: string; fontAwesomeName?:IconDefinition }[];
   url: string;
+  videoUrl?: string;
+  pictureUrl?: string;
 }
 
 const Project = (props: ProjectProps) => {
@@ -55,7 +57,7 @@ const Project = (props: ProjectProps) => {
                 </p>
               </div>
             <p className="section-header">Video Demo</p>
-            COMING SOON
+            <iframe width="100%" height="515" src="https://www.youtube.com/embed/C4rH3tBxT1E?si=h27a8-BOLO0fU1Iz&amp;start=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p className="section-header">Pictures</p>
             COMING SOON
         </div>
