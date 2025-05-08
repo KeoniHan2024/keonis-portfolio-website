@@ -57,7 +57,8 @@ const Project = (props: ProjectProps) => {
                 </p>
               </div>
             <p className="section-header">Video Demo</p>
-            <iframe width="100%" height="515" src="https://www.youtube.com/embed/C4rH3tBxT1E?si=h27a8-BOLO0fU1Iz&amp;start=19" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            {props.videoUrl && <iframe width="100%" height="515" src={props.videoUrl} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>}
+            
             <p className="section-header">Pictures</p>
             COMING SOON
         </div>
