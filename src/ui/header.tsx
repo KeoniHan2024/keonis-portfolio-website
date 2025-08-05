@@ -21,11 +21,11 @@ function Header() {
             <p className="header-text">Education</p>
           </a> */}
           <a href="/projects">
-            <p className="header-text">Projects</p>
+            <p className="header-text">Coding Projects</p>
           </a>
-          {/* <a href="/social-media">
-            <p className="header-text">Social Media</p>
-          </a> */}
+          <a href="/graphic-design">
+            <p className="header-text">Graphic Design</p>
+          </a>
         </div>
         <div className="right-section">
           <a href="mailto:keonihan@gmail.com">
@@ -52,7 +52,8 @@ function Header() {
       </div>
         <nav id="dropdownMenu" className={`navBar  ${isVisible ? 'visible' : ''}`} ref={dropDownRef}>
           {/* <a href="/"> <p className="header-text">About me</p></a> */}
-          <a href="/projects"> <p className="header-text">Projects</p></a>
+          <a href="/projects"> <p className="header-text">Coding Projects</p></a>
+          <a href="/graphic-design"> <p className="header-text">Graphic Design Projectss</p></a>
           <a href="mailto:keonihan@gmail.com"> <p className="header-text">Contact Me</p></a>
         </nav>
     </>
