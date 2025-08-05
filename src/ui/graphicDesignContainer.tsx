@@ -8,7 +8,7 @@ function GraphicDesignContainer() {
         <div className="project-container-box">
             <div className="gradient"></div>
             <div className="project-img" >
-                <img src="../../public/img/DJALCover.jpg"></img>
+                <img src="./img/DJALCover.jpg"></img>
             </div>
             <div className="project-info-container"></div>
                 <p className="project-name">
